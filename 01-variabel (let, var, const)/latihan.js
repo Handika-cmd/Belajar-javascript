@@ -12,7 +12,7 @@ console.log(y);
 
 /*--- const ---*/
 const z = 10;
-// z =20; // error: tidak bisa reassign
+// const z =20; // error: tidak bisa reassign
 console.log(z);
 
 // block scope//
