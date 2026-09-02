@@ -1,0 +1,1 @@
+console.log("\n === PROGRAM SAPAAN PERTAMA DIMULAI ===")
