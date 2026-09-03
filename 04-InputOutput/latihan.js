@@ -33,4 +33,4 @@ alert(`Hasil jumlah dari: ${inputangka1} dan ${inputangka2} = ${hasil}`);
 // Tampilkan ke console
 console.log("user memasukkan angka pertama: ", angka1);
 console.log("user memasukkan angka kedua: ", angka2)
-console.log("Hasilnya: ",hasil)
+console.log("Hasilnya: ",hasil);
