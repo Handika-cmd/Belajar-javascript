@@ -9,28 +9,24 @@
 
 // alert(`Selamat datang ${userName}, Sekarang umurmu: ${umur} tahun`);
 
+console.log("Selamat datang diperhitungan");
 
-// ========== Latihan Kalkulator Sederhana ==========
+let nama = prompt("Masukkan Namamu");
+alert(`Halo ${nama}, Selamat datang di dunia perhitungan (-,+,*,/,%)`);
 
-console.log("===== Latihan Kalkulator sederhana =====");
+let inputangka = prompt("Masukkan angka pertama");
+let inputangka1 = prompt("Masukkan angka kedua: ");
+let hasil1 = inputangka + inputangka1;
 
-alert(`Selamat datang di kalkulator sederhana`);
 
-// 1. ambil input dari user (inget hasil prompt selalu string!)
-let inputangka1 = prompt("Masukkan angka pertama: ");
-let inputangka2 = prompt("Masukkan angka kedua: ")
-
-// 2. konversi string menjadi number, gunakan Number();
-let angka1 = Number(inputangka1);
-let angka2 = Number(inputangka2);
-
-// 3. sekarang kita melakukan operasi matematika (+) sisanya bebas mau menggunakan operator manapun
+let angka1 = Number(inputangka);
+let angka2 = Number(inputangka1);
 let hasil = angka1 + angka2;
+alert(`Hasil dari ${angka1} + ${angka2} = ${hasil}`);
+alert(`Hasil dari (tpi string): ${inputangka} + ${inputangka1}= ${hasil1}`);
 
-// 4. Tampilin hasilnya ke user
-alert(`Hasil jumlah dari: ${inputangka1} dan ${inputangka2} = ${hasil}`);
-
-// Tampilkan ke console
-console.log("user memasukkan angka pertama: ", angka1);
-console.log("user memasukkan angka kedua: ", angka2)
-console.log("Hasilnya: ",hasil);
+console.log("angka pertama: ", angka1);
+console.log("angka kedua: ", angka2);
+console.log(`Proses: ${angka1} + ${angka2}`);
+console.log(`Maka hasilnya: ${hasil}`);
+console.log("\n Sedangkan hasil dari string: ", inputangka, "+", inputangka1, "=", hasil1);
